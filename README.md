@@ -30,6 +30,10 @@ At the selected decision threshold (0.161991, chosen by maximizing F1-score on t
 
 The final feature set contains **330 predictors** (318 numerical, 12 categorical) built from all 7 source tables. SHAP analysis shows external credit scores, loan affordability, existing debt, and prior payment behaviour are the strongest drivers of the model's predictions.
 
+![Final test ROC and PR curves](reports/figures/final_test_curves.png)
+![SHAP consensus feature importance](reports/figures/final_shap_consensus_importance.png)
+![Final test confusion matrix](reports/figures/report_final_confusion_matrix.png)
+
 ## Repository structure
 
 ```
