@@ -48,7 +48,6 @@ notebooks/
 ├── 31_final_model_shap_interpretation.ipynb      Global and local SHAP explanations
 ├── 32_final_fairness_and_subgroup_check.ipynb    Gender and age fairness audit
 ├── 33_final_results_and_conclusions.ipynb        Compiles all results/figures for the report
-└── 34_prepare_website_deployment_files.ipynb     (Optional) packages the frozen model for reuse
 
 reports/
 └── Saved metrics, figures, tables, and the written report(s) for the project
@@ -73,4 +72,3 @@ See `requirements.txt` for the Python environment used to run these notebooks.
 ## Notes
 
 - The raw dataset is not included in this repository due to its size; it can be downloaded from the [Kaggle competition page](https://www.kaggle.com/c/home-credit-default-risk).
-- Notebook 34 is not part of the academic pipeline — it is an optional step for packaging the final model for external reuse.
