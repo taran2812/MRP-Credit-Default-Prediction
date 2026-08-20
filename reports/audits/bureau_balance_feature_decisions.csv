@@ -1,0 +1,9 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,decision,reason,target_association_stage
+BB_DELINQUENCY_LEVEL,float32,2261962,0.19254406136725774,6,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+MONTHS_BALANCE,float64,0,0.0,97,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+STATUS,string,0,0.0,8,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+BB_STATUS_UNKNOWN,int8,0,0.0,2,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+BB_STATUS_CLOSED,int8,0,0.0,2,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+BB_STATUS_DELINQUENT,int8,0,0.0,2,Keep,Retain for bureau and applicant-level aggregation,After applicant-level aggregation
+BB_INVALID_STATUS,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation
+BB_MONTH_ANOMALY,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation

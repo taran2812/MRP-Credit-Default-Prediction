@@ -1,0 +1,8 @@
+dataset,filename,exists,size_mb,relational_level
+application,application_train.csv,True,158.44,applicant
+bureau,bureau.csv,True,162.14,external credit
+bureau_balance,bureau_balance.csv,True,358.19,external credit-month
+previous_application,previous_application.csv,True,386.21,previous application
+installments,installments_payments.csv,True,689.62,payment event
+credit_card,credit_card_balance.csv,True,404.91,credit card-month
+pos_cash,POS_CASH_balance.csv,True,374.51,POS loan-month

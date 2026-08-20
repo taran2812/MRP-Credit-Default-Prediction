@@ -1,0 +1,125 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,dominant_share,target_association,association_method,decision,reason
+FLOORSMAX_AVG,float64,122513,0.4980041299469936,381,0.4980041299469936,-0.041370947776681155,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLOORSMAX_MODE,float64,122513,0.4980041299469936,25,0.4980041299469936,-0.04049672414033709,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLOORSMAX_MEDI,float64,122513,0.4980041299469936,49,0.4980041299469936,-0.041116826094621486,Pearson correlation,Keep,Kept for later feature creation and modelling
+YEARS_BEGINEXPLUATATION_AVG,float64,120124,0.4882930636402068,272,0.4882930636402068,-0.00950361319931086,Pearson correlation,Keep,Kept for later feature creation and modelling
+YEARS_BEGINEXPLUATATION_MODE,float64,120124,0.4882930636402068,215,0.4882930636402068,-0.008295356018065749,Pearson correlation,Keep,Kept for later feature creation and modelling
+YEARS_BEGINEXPLUATATION_MEDI,float64,120124,0.4882930636402068,239,0.4882930636402068,-0.009966191889583653,Pearson correlation,Keep,Kept for later feature creation and modelling
+TOTALAREA_MODE,float64,118847,0.48310217553900686,5000,0.48310217553900686,-0.031244970443690786,Pearson correlation,Keep,Kept for later feature creation and modelling
+EMERGENCYSTATE_MODE,str,116681,0.4742975838184124,2,0.5180969724561802,,Not calculated,Keep,Kept for later feature creation and modelling
+OCCUPATION_TYPE,str,77103,0.31341663685733795,18,0.31341663685733795,,Not calculated,Keep,Kept for later feature creation and modelling
+EXT_SOURCE_3,float64,48877,0.1986805307144483,805,0.1986805307144483,-0.17936819691631123,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_EMPLOYED,float64,44283,0.1800063412571949,12059,0.1800063412571949,0.07587425709640551,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_HOUR,float64,33196,0.13493870118044943,5,0.859846021267601,0.0013542812765993501,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_DAY,float64,33196,0.13493870118044943,9,0.8602972261064681,0.0023873227409289166,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_WEEK,float64,33196,0.13493870118044943,9,0.8373792722187896,-0.000818869697301212,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_MON,float64,33196,0.13493870118044943,24,0.7226756853435661,-0.012809417703247894,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_QRT,float64,33196,0.13493870118044943,11,0.7007251796689539,-0.0025840066933562615,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_REQ_CREDIT_BUREAU_YEAR,float64,33196,0.13493870118044943,25,0.23359809437091478,0.018393242167652552,Pearson correlation,Keep,Kept for later feature creation and modelling
+NAME_TYPE_SUITE,str,1042,0.004235634613508504,7,0.8079899840655589,,Not calculated,Keep,Kept for later feature creation and modelling
+OBS_30_CNT_SOCIAL_CIRCLE,float64,798,0.0032437969496926927,33,0.5318444928620207,0.009158071762484437,Pearson correlation,Keep,Kept for later feature creation and modelling
+DEF_30_CNT_SOCIAL_CIRCLE,float64,798,0.0032437969496926927,10,0.881869695294462,0.03367154042331497,Pearson correlation,Keep,Kept for later feature creation and modelling
+OBS_60_CNT_SOCIAL_CIRCLE,float64,798,0.0032437969496926927,33,0.5342590484862281,0.009037279029557152,Pearson correlation,Keep,Kept for later feature creation and modelling
+DEF_60_CNT_SOCIAL_CIRCLE,float64,798,0.0032437969496926927,9,0.912490650710546,0.032543388241792925,Pearson correlation,Keep,Kept for later feature creation and modelling
+EXT_SOURCE_2,float64,552,0.002243829468960359,108842,0.002414555624207343,-0.15959101388082503,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_GOODS_PRICE,float64,220,0.0008942798608175344,913,0.0849850411368736,-0.0399061760245743,Pearson correlation,Keep,Kept for later feature creation and modelling
+EXT_SOURCE_MEAN,float64,144,0.0005853468179896589,241053,0.0005853468179896589,-0.22202095427194588,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_ANNUITY,float64,10,4.06490845826152e-05,13075,0.020495268446554582,-0.013321286631835384,Pearson correlation,Keep,Kept for later feature creation and modelling
+CNT_FAM_MEMBERS,float64,1,4.0649084582615195e-06,17,0.5152677961692302,0.0089305577620747,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_LAST_PHONE_CHANGE,float64,1,4.0649084582615195e-06,3739,0.12254073038275178,0.05550252594142843,Pearson correlation,Keep,Kept for later feature creation and modelling
+NAME_CONTRACT_TYPE,str,0,0.0,2,0.9049868296965953,,Not calculated,Keep,Kept for later feature creation and modelling
+FLAG_OWN_CAR,str,0,0.0,2,0.6598728496634256,,Not calculated,Keep,Kept for later feature creation and modelling
+FLAG_OWN_REALTY,str,0,0.0,2,0.692627882020097,,Not calculated,Keep,Kept for later feature creation and modelling
+CNT_CHILDREN,int64,0,0.0,15,0.700493479886833,0.01885393328764945,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_INCOME_TOTAL,float64,0,0.0,2171,0.11572387889824721,-0.0017103720804606901,Pearson correlation,Keep,Kept for later feature creation and modelling
+AMT_CREDIT,float64,0,0.0,5269,0.03178758414360509,-0.030590532956507595,Pearson correlation,Keep,Kept for later feature creation and modelling
+NAME_INCOME_TYPE,str,0,0.0,8,0.51613362167084,,Not calculated,Keep,Kept for later feature creation and modelling
+NAME_EDUCATION_TYPE,str,0,0.0,5,0.7102655198204937,,Not calculated,Keep,Kept for later feature creation and modelling
+NAME_FAMILY_STATUS,str,0,0.0,6,0.6387231309550909,,Not calculated,Keep,Kept for later feature creation and modelling
+NAME_HOUSING_TYPE,str,0,0.0,6,0.8868979870573315,,Not calculated,Keep,Kept for later feature creation and modelling
+REGION_POPULATION_RELATIVE,float64,0,0.0,81,0.05352264966992943,-0.037124822265195506,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_BIRTH,int64,0,0.0,17411,0.00015040161295567625,0.07926959616978135,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_REGISTRATION,float64,0,0.0,15414,0.00035771194432701375,0.0430904446750457,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_ID_PUBLISH,int64,0,0.0,6139,0.0005609573672400897,0.050195484945272574,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_EMP_PHONE,int64,0,0.0,2,0.8199489447497642,0.046788890950214324,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_WORK_PHONE,int64,0,0.0,2,0.8008357451790186,0.02912777021236494,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_CONT_MOBILE,int64,0,0.0,2,0.9981057526584501,-0.00013048905504071454,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_PHONE,int64,0,0.0,2,0.7180823387857306,-0.023144587616372538,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_EMAIL,int64,0,0.0,2,0.9431400604858379,-0.0012396287257742944,Pearson correlation,Keep,Kept for later feature creation and modelling
+REGION_RATING_CLIENT,int64,0,0.0,3,0.7383784267178303,0.05821782717912109,Pearson correlation,Keep,Kept for later feature creation and modelling
+REGION_RATING_CLIENT_W_CITY,int64,0,0.0,3,0.7465529576273943,0.05987916166433224,Pearson correlation,Keep,Kept for later feature creation and modelling
+WEEKDAY_APPR_PROCESS_START,str,0,0.0,7,0.1751569054664889,,Not calculated,Keep,Kept for later feature creation and modelling
+HOUR_APPR_PROCESS_START,int64,0,0.0,24,0.12250821111508568,-0.023499728160722298,Pearson correlation,Keep,Kept for later feature creation and modelling
+REG_REGION_NOT_LIVE_REGION,int64,0,0.0,2,0.9850533315989723,0.004446623205368,Pearson correlation,Keep,Kept for later feature creation and modelling
+REG_REGION_NOT_WORK_REGION,int64,0,0.0,2,0.9492130337224806,0.007704729959523243,Pearson correlation,Keep,Kept for later feature creation and modelling
+LIVE_REGION_NOT_WORK_REGION,int64,0,0.0,2,0.9592167734382622,0.004529941042071606,Pearson correlation,Keep,Kept for later feature creation and modelling
+REG_CITY_NOT_LIVE_CITY,int64,0,0.0,2,0.9217464472700074,0.0435520176581596,Pearson correlation,Keep,Kept for later feature creation and modelling
+REG_CITY_NOT_WORK_CITY,int64,0,0.0,2,0.7694343273389483,0.05097783101407823,Pearson correlation,Keep,Kept for later feature creation and modelling
+LIVE_CITY_NOT_WORK_CITY,int64,0,0.0,2,0.8203513706871322,0.032773398221876256,Pearson correlation,Keep,Kept for later feature creation and modelling
+ORGANIZATION_TYPE,str,0,0.0,58,0.22070826964976747,,Not calculated,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_3,int64,0,0.0,2,0.7105216090533641,0.045372677803442264,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_5,int64,0,0.0,2,0.9848216318168515,-0.0009083123493445019,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_6,int64,0,0.0,2,0.9120516405970538,-0.030012480183699328,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_8,int64,0,0.0,2,0.9187302851939775,-0.008192090684646373,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_9,int64,0,0.0,2,0.9960285844362785,-0.00542644645301727,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_11,int64,0,0.0,2,0.9960976878800689,-0.005384966225731183,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_13,int64,0,0.0,2,0.9964838541836037,-0.011553179029873266,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_14,int64,0,0.0,2,0.9969960326493448,-0.008632051385249617,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_15,int64,0,0.0,2,0.9987886572794381,-0.00603037834729434,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_16,int64,0,0.0,2,0.9900734935449254,-0.011610851210276066,Pearson correlation,Keep,Kept for later feature creation and modelling
+FLAG_DOCUMENT_18,int64,0,0.0,2,0.9918173392735196,-0.007868905995111542,Pearson correlation,Keep,Kept for later feature creation and modelling
+DAYS_EMPLOYED_ANOMALY,int8,0,0.0,2,0.8199936587428052,-0.046797775119581,Pearson correlation,Keep,Kept for later feature creation and modelling
+EXT_SOURCE_COUNT,int8,0,0.0,4,0.5228691749861794,-0.02836482091006938,Pearson correlation,Keep,Kept for later feature creation and modelling
+CODE_GENDER,str,0,0.0,3,0.6587306103866541,,Not calculated,Keep for fairness audit,Protected attribute is retained for subgroup checking and excluded from model predictors
+COMMONAREA_AVG,float64,171841,0.6985179343761179,3025,0.6985179343761179,-0.018826157024028494,Pearson correlation,Remove,Training-set missing rate is at least 50%
+COMMONAREA_MODE,float64,171841,0.6985179343761179,2967,0.6985179343761179,-0.016614107570514187,Pearson correlation,Remove,Training-set missing rate is at least 50%
+COMMONAREA_MEDI,float64,171841,0.6985179343761179,3053,0.6985179343761179,-0.018863563870377985,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAPARTMENTS_AVG,float64,170708,0.6939123930929075,366,0.6939123930929075,-0.003393994499702788,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAPARTMENTS_MODE,float64,170708,0.6939123930929075,160,0.6939123930929075,-0.0016991287480353822,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAPARTMENTS_MEDI,float64,170708,0.6939123930929075,206,0.6939123930929075,-0.0027976794795483585,Pearson correlation,Remove,Training-set missing rate is at least 50%
+FONDKAPREMONT_MODE,str,168138,0.6834655783551754,4,0.6834655783551754,,Not calculated,Remove,Training-set missing rate is at least 50%
+LIVINGAPARTMENTS_AVG,float64,168084,0.6832460732984293,1795,0.6832460732984293,-0.023999658738693683,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LIVINGAPARTMENTS_MODE,float64,168084,0.6832460732984293,721,0.6832460732984293,-0.02251600591695254,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LIVINGAPARTMENTS_MEDI,float64,168084,0.6832460732984293,1073,0.6832460732984293,-0.023556438719228412,Pearson correlation,Remove,Training-set missing rate is at least 50%
+FLOORSMIN_AVG,float64,166893,0.6784047673246398,289,0.6784047673246398,-0.031829911613455275,Pearson correlation,Remove,Training-set missing rate is at least 50%
+FLOORSMIN_MODE,float64,166893,0.6784047673246398,25,0.6784047673246398,-0.03088192696382257,Pearson correlation,Remove,Training-set missing rate is at least 50%
+FLOORSMIN_MEDI,float64,166893,0.6784047673246398,47,0.6784047673246398,-0.03156373036421354,Pearson correlation,Remove,Training-set missing rate is at least 50%
+YEARS_BUILD_AVG,float64,163551,0.6648198432571298,147,0.6648198432571298,-0.021028477978065677,Pearson correlation,Remove,Training-set missing rate is at least 50%
+YEARS_BUILD_MODE,float64,163551,0.6648198432571298,152,0.6648198432571298,-0.02091792212804964,Pearson correlation,Remove,Training-set missing rate is at least 50%
+YEARS_BUILD_MEDI,float64,163551,0.6648198432571298,149,0.6648198432571298,-0.021176059262088497,Pearson correlation,Remove,Training-set missing rate is at least 50%
+OWN_CAR_AGE,float64,162339,0.6598931742057169,62,0.6598931742057169,0.03460667270198088,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LANDAREA_AVG,float64,146128,0.5939969431888393,3415,0.5939969431888393,-0.008897381456930982,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LANDAREA_MODE,float64,146128,0.5939969431888393,3453,0.5939969431888393,-0.008311899545669837,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LANDAREA_MEDI,float64,146128,0.5939969431888393,3459,0.5939969431888393,-0.009074675623760603,Pearson correlation,Remove,Training-set missing rate is at least 50%
+BASEMENTAREA_AVG,float64,144015,0.5854077916165328,3683,0.5854077916165328,-0.023572613364364198,Pearson correlation,Remove,Training-set missing rate is at least 50%
+BASEMENTAREA_MODE,float64,144015,0.5854077916165328,3732,0.5854077916165328,-0.020368020506819174,Pearson correlation,Remove,Training-set missing rate is at least 50%
+BASEMENTAREA_MEDI,float64,144015,0.5854077916165328,3675,0.5854077916165328,-0.02294491480080648,Pearson correlation,Remove,Training-set missing rate is at least 50%
+EXT_SOURCE_1,float64,138633,0.5635304542941693,94639,0.5635304542941693,-0.1559718656924038,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAREA_AVG,float64,135739,0.5517666092159604,3147,0.5517666092159604,-0.013327623255548678,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAREA_MODE,float64,135739,0.5517666092159604,3181,0.5517666092159604,-0.01239740092740506,Pearson correlation,Remove,Training-set missing rate is at least 50%
+NONLIVINGAREA_MEDI,float64,135739,0.5517666092159604,3174,0.5517666092159604,-0.013023238205859235,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ELEVATORS_AVG,float64,131222,0.5334054177099932,249,0.5334054177099932,-0.031436110622221916,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ELEVATORS_MODE,float64,131222,0.5334054177099932,26,0.5334054177099932,-0.029470174702377887,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ELEVATORS_MEDI,float64,131222,0.5334054177099932,46,0.5334054177099932,-0.03119515332814624,Pearson correlation,Remove,Training-set missing rate is at least 50%
+WALLSMATERIAL_MODE,str,125198,0.5089184091574258,7,0.5089184091574258,,Not calculated,Remove,Training-set missing rate is at least 50%
+APARTMENTS_AVG,float64,124940,0.5078696627751943,2271,0.5078696627751943,-0.02766757395326252,Pearson correlation,Remove,Training-set missing rate is at least 50%
+APARTMENTS_MODE,float64,124940,0.5078696627751943,748,0.5078696627751943,-0.025658126771715695,Pearson correlation,Remove,Training-set missing rate is at least 50%
+APARTMENTS_MEDI,float64,124940,0.5078696627751943,1128,0.5078696627751943,-0.027444640245603356,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ENTRANCES_AVG,float64,123981,0.5039714155637215,277,0.5039714155637215,-0.017686561003264007,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ENTRANCES_MODE,float64,123981,0.5039714155637215,30,0.5039714155637215,-0.016076086029829732,Pearson correlation,Remove,Training-set missing rate is at least 50%
+ENTRANCES_MEDI,float64,123981,0.5039714155637215,46,0.5039714155637215,-0.01763691417084706,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LIVINGAREA_AVG,float64,123596,0.5024064258072908,5078,0.5024064258072908,-0.031219622426072572,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LIVINGAREA_MODE,float64,123596,0.5024064258072908,5170,0.5024064258072908,-0.02905732222724152,Pearson correlation,Remove,Training-set missing rate is at least 50%
+LIVINGAREA_MEDI,float64,123596,0.5024064258072908,5166,0.5024064258072908,-0.030981909849583423,Pearson correlation,Remove,Training-set missing rate is at least 50%
+HOUSETYPE_MODE,str,123520,0.5020974927644629,3,0.5020974927644629,,Not calculated,Remove,Training-set missing rate is at least 50%
+FLAG_MOBIL,int64,0,0.0,2,0.9999959350915417,0.0005974746919128752,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_2,int64,0,0.0,2,0.9999593509154174,0.002791463839680445,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_4,int64,0,0.0,2,0.999922766739293,-0.0026044270863200716,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_7,int64,0,0.0,2,0.9998048843940035,-0.0009347950566865042,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_10,int64,0,0.0,2,0.9999878052746252,-0.0010348607292691738,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_12,int64,0,0.0,2,0.9999918701830834,-0.0008449585298260547,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_17,int64,0,0.0,2,0.9997520405840461,-0.003719281128833849,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_19,int64,0,0.0,2,0.9993496146466782,-0.0011217947964556605,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_20,int64,0,0.0,2,0.9994796917173425,-0.00021810281332151186,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+FLAG_DOCUMENT_21,int64,0,0.0,2,0.9996463529641313,0.003949443486658148,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero
+EXT_SOURCE_ALL_MISSING,int8,0,0.0,2,0.9994146531820104,-0.0010025005537502392,Pearson correlation,Remove,Almost every applicant has the same value and its correlation with default is close to zero

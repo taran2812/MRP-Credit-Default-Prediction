@@ -1,0 +1,12 @@
+check,passed
+Application row count preserved,True
+One row per applicant,True
+Applicant IDs unchanged,True
+TARGET unchanged,True
+Training and test remain separate,True
+All rows assigned to training or test set,True
+No duplicated feature names,True
+No categorical missing values,True
+No infinite numerical values,True
+No retained feature reaches 50 percent training missingness,True
+Final test excluded from final feature decisions,True

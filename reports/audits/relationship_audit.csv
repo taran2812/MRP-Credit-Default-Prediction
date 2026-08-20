@@ -1,0 +1,8 @@
+dataset,rows,unique_applicants,applicant_coverage_pct,ids_not_in_application_train,duplicate_declared_keys,bureau_ids_not_in_bureau
+application,307511,307511,100.0,0.0,0,
+bureau,1716428,305811,85.685,42320.0,0,
+previous_application,1670214,338857,94.649,47800.0,0,
+installments,13605401,339587,94.84,47944.0,653483,
+credit_card,3840312,103558,28.261,16653.0,0,
+pos_cash,10001358,337252,94.125,47808.0,0,
+bureau_balance,27299925,92231,29.993,,0,43041.0

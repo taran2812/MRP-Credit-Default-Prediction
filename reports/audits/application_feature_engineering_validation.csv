@@ -1,0 +1,11 @@
+check,passed
+Row count unchanged,True
+Applicant IDs unchanged,True
+Applicant IDs unique,True
+TARGET unchanged,True
+Training and test IDs separate,True
+New feature names unique,True
+No infinite numerical values,True
+Social-default ratio below 50 percent missing,True
+All new features included in audit,True
+Final test excluded from associations,True

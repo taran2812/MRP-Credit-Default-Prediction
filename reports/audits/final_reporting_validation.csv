@@ -1,0 +1,17 @@
+check,passed
+Training-set size documented,True
+Test-set size documented,True
+Final predictor count documented,True
+Baseline models included,True
+Three tuned model families included,True
+All ensemble methods included,True
+Final equal-vote ensemble reported,True
+Confidence intervals reported,True
+F1-selected threshold reported,True
+Standard classification metrics reported,True
+Confusion matrix matches test size,True
+Threshold sensitivity reported,True
+SHAP interpretation included,True
+Gender and age audits included,True
+Report summary created,True
+No training or tuning performed,True

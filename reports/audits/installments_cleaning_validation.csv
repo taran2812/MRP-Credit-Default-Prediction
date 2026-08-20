@@ -1,0 +1,11 @@
+check,passed
+Only project applicants retained,True
+Applicant IDs complete,True
+Previous-loan IDs complete,True
+No exact duplicates,True
+No future installment dates,True
+No future payment dates,True
+No negative installment amounts,True
+No negative payment amounts,True
+No high-missing retained feature,True
+No infinite numerical values,True

@@ -1,0 +1,10 @@
+check,passed
+Only project applicants retained,True
+Applicant IDs complete,True
+Previous-account IDs complete,True
+Account-month keys unique,True
+No categorical missing values,True
+No future balance months,True
+No negative delinquency days,True
+No high-missing retained feature,True
+No infinite numerical values,True

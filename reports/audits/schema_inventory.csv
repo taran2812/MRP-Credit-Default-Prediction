@@ -1,0 +1,8 @@
+dataset,column_count,duplicate_column_names,missing_required_columns,sample_rows_read,sample_duplicate_rows,sample_memory_mb
+application,122,0,,5000,0,5.29
+bureau,17,0,,5000,0,0.79
+bureau_balance,3,0,,5000,0,0.12
+previous_application,37,0,,5000,0,2.02
+installments,8,0,,5000,0,0.31
+credit_card,23,0,,5000,0,0.91
+pos_cash,8,0,,5000,0,0.33

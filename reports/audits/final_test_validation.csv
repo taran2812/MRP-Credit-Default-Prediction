@@ -1,0 +1,17 @@
+check,passed
+Complete training set used,True
+Complete final test set used,True
+Training and test sets are separate,True
+Frozen model configurations used,True
+Median training rounds used,True
+Protected gender excluded,True
+All test predictions complete,True
+One prediction per test applicant,True
+Raw equal voting used,True
+Frozen F1 threshold used,True
+Test excluded from threshold selection,True
+Binary predictions complete,True
+Sensitivity thresholds evaluated,True
+Bootstrap repetitions complete,True
+Final metrics finite,True
+Classification metrics finite,True

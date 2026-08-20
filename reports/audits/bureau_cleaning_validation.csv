@@ -1,0 +1,13 @@
+check,passed
+Only project applicant records retained,True
+SK_ID_CURR complete,True
+SK_ID_BUREAU complete,True
+SK_ID_BUREAU unique,True
+No exact duplicates,True
+No categorical missing values,True
+No future credit starts,True
+No future actual end dates,True
+No future credit updates,True
+High-missing AMT_ANNUITY removed,True
+High-missing maximum-overdue feature removed,True
+No infinite numerical values,True

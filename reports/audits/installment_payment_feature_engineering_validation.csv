@@ -1,0 +1,10 @@
+check,passed
+One row per applicant,True
+Only project applicants included,True
+No TARGET in output,True
+No previous-loan ID in output,True
+No infinite numerical values,True
+No retained feature reaches 50 percent training missingness,True
+Final test excluded from feature decisions,True
+Consolidated installments do not exceed payment rows,True
+Installment counts are positive,True

@@ -1,0 +1,7 @@
+rule,affected
+Rows without project bureau mapping removed,12598313
+Exact duplicate rows removed,0
+Invalid statuses converted to X,0
+Delinquent monthly statuses flagged,221314
+Unknown monthly statuses flagged,2837039
+Features removed by missingness/constant policy,2

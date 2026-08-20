@@ -1,0 +1,11 @@
+check,passed
+Only project applicants retained,True
+Applicant IDs complete,True
+Previous-application IDs complete,True
+Previous-application IDs unique,True
+No exact duplicates,True
+No categorical missing values,True
+No 365243 date placeholders,True
+No future decision dates,True
+Interest-rate columns removed by missingness rule,True
+No infinite numerical values,True

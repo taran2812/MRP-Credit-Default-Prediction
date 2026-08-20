@@ -1,0 +1,6 @@
+rule,affected
+Out-of-scope bureau records removed,251103
+Exact duplicate rows removed,0
+Rare credit types consolidated,69
+Date anomaly records flagged,247
+Features removed by missingness policy,2

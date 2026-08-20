@@ -1,0 +1,13 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,decision,reason,target_association_stage
+CNT_INSTALMENT,float64,17507,0.0025613482930391955,70,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_INSTALMENT_FUTURE,float64,17504,0.0025609093803254743,78,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+MONTHS_BALANCE,float64,0,0.0,96,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CONTRACT_STATUS,str,0,0.0,8,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+SK_DPD,float64,0,0.0,3317,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+SK_DPD_DEF,float64,0,0.0,1971,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+POS_SCHEDULE_MISSING,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+POS_FUTURE_ABOVE_TOTAL,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+POS_COMPLETED_WITH_REMAINING,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+POS_ACTIVE_WITH_ZERO_FUTURE,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+POS_MONTH_ANOMALY,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation
+POS_DPD_INCONSISTENCY,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation

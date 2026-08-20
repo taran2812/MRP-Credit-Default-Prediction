@@ -1,0 +1,11 @@
+check,passed
+Complete training dataset used,True
+All five predefined folds used,True
+Applicant IDs unique and aligned,True
+Base OOF predictions complete,True
+Ensemble OOF predictions complete,True
+Final test excluded,True
+One set of weights selected per fold,True
+Voting weights sum to one,True
+One stacker setting selected per fold,True
+All metrics finite,True

@@ -1,0 +1,8 @@
+rule,affected
+Out-of-scope records removed,2013809
+Exact duplicate rows removed,0
+Repeated installment-key rows retained,1118890
+Late-payment records flagged,993629
+Underpayment records flagged,1119901
+Overpayment records flagged,146780
+Features removed by missingness/constant policy,2

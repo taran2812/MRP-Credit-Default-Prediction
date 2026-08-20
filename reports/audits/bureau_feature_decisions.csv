@@ -1,0 +1,21 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,decision,reason,target_association_stage
+DAYS_ENDDATE_FACT,float64,435850,0.37190407033795186,2913,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+AMT_CREDIT_SUM_LIMIT,float64,391802,0.3343185925583348,36583,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+AMT_CREDIT_SUM_DEBT,float64,178498,0.15230958528664387,173792,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+DAYS_CREDIT_ENDDATE,float64,71374,0.060902331344042625,13211,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+DAYS_CREDIT_UPDATE,float64,85,7.252918659797157e-05,2903,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+AMT_CREDIT_SUM,float64,3,2.5598536446342907e-06,181432,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+CREDIT_ACTIVE,str,0,0.0,4,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+CREDIT_CURRENCY,str,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+DAYS_CREDIT,float64,0,0.0,2923,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+CREDIT_DAY_OVERDUE,int64,0,0.0,764,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+CNT_CREDIT_PROLONG,int64,0,0.0,10,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+AMT_CREDIT_SUM_OVERDUE,float64,0,0.0,1198,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+CREDIT_TYPE,str,0,0.0,10,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+BUREAU_DATE_ANOMALY,int8,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+BUREAU_NEGATIVE_DEBT,int8,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+BUREAU_NEGATIVE_LIMIT,int8,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+BUREAU_DEBT_ABOVE_CREDIT,int8,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+BUREAU_OVERDUE_INCONSISTENCY,int8,0,0.0,2,Keep,Kept for applicant-level summaries and later feature selection,Checked later after creating one row per applicant
+AMT_ANNUITY,float64,903260,0.7707378010174565,26153,Remove,At least 50% missing in training-linked bureau records,Checked later after creating one row per applicant
+AMT_CREDIT_MAX_OVERDUE,float64,759402,0.6479859924808565,50617,Remove,At least 50% missing in training-linked bureau records,Checked later after creating one row per applicant

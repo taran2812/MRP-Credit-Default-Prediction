@@ -1,0 +1,10 @@
+check,passed
+One row per project applicant,True
+All project applicants included,True
+No TARGET in output,True
+No previous-loan ID in output,True
+History availability retained,True
+No missing values after structural encoding,True
+No infinite numerical values,True
+No retained feature reaches 50 percent training missingness,True
+Final test excluded from feature decisions,True

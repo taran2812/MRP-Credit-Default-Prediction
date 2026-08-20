@@ -1,0 +1,9 @@
+check,passed
+Complete training dataset used,True
+All five OOF folds present,True
+Applicant IDs are unique,True
+Final test set excluded,True
+Raw ensemble scores complete,True
+Selected threshold is valid,True
+Selected threshold has maximum F1,True
+Threshold results are finite,True

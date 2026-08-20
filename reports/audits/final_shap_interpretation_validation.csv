@@ -1,0 +1,13 @@
+check,passed
+Complete final test retained,True
+Prediction rows aligned by applicant ID,True
+Stratified SHAP sample size correct,True
+SHAP sample default rate representative,True
+All frozen predictors explained,True
+XGBoost SHAP dimensions valid,True
+LightGBM SHAP dimensions valid,True
+CatBoost SHAP dimensions valid,True
+All SHAP values finite,True
+Consensus importance sums to one,True
+Three representative explanations created,True
+No model training or tuning performed,True

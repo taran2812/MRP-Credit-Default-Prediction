@@ -1,0 +1,11 @@
+check,passed
+Only project applicants retained,True
+Only cleaned bureau accounts retained,True
+Bureau IDs complete,True
+Applicant IDs complete,True
+Account-month keys unique,True
+No invalid status labels,True
+No future balance months,True
+Unknown status has missing severity,True
+No high-missing retained feature,True
+No infinite numerical values,True

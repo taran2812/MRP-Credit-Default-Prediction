@@ -1,0 +1,12 @@
+check,passed
+Complete training dataset used,True
+All five predefined folds used,True
+Every model trained on every fold,True
+All OOF predictions complete,True
+One OOF row per training applicant,True
+Final test excluded,True
+Protected gender excluded from predictors,True
+Random forest uses 500 trees,True
+No row sampling configured,True
+All logistic folds converged,True
+Metrics are finite,True

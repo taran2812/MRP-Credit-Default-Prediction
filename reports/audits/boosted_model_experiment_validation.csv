@@ -1,0 +1,10 @@
+check,passed
+Complete training dataset used,True
+All models used all five outer folds,True
+All OOF predictions complete,True
+One OOF row per training applicant,True
+Final test excluded,True
+Protected gender excluded,True
+Selected iterations valid,True
+No outer-fold row sampling,True
+Metrics finite,True

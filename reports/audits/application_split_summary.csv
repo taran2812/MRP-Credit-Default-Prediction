@@ -1,0 +1,3 @@
+partition,applicants,defaults,default_rate
+training,246008,19860,0.08072908198107379
+test,61503,4965,0.08072776937710356

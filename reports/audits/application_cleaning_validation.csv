@@ -1,0 +1,16 @@
+check,passed
+Row count preserved,True
+Applicant IDs unchanged,True
+Applicant IDs remain unique,True
+TARGET unchanged,True
+TARGET remains binary,True
+Training and test do not overlap,True
+All rows assigned to training or test set,True
+Five training folds created,True
+DAYS_EMPLOYED sentinel removed,True
+CODE_GENDER XNA removed,True
+No categorical missing values remain,True
+No retained training feature has at least 50 percent missingness,True
+EXT_SOURCE_1 removed,True
+External source summary retained,True
+No infinite numerical values,True

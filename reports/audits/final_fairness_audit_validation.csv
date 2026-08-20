@@ -1,0 +1,13 @@
+check,passed
+Complete final test set audited,True
+Predictions aligned by applicant ID,True
+Primary risk scores complete,True
+F1-selected threshold used,True
+Binary decisions complete,True
+Gender groups cover all applicants,True
+Age groups cover all applicants,True
+Large gender groups bootstrapped,True
+All bootstrap repetitions attempted,True
+Intersection groups have adequate size,True
+Subgroup ranking metrics finite,True
+No training or tuning performed,True

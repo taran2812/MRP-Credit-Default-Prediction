@@ -1,0 +1,11 @@
+check,passed
+Only project applicants retained,True
+Applicant IDs complete,True
+Previous-loan IDs complete,True
+Loan-month keys unique,True
+No categorical missing values,True
+No future balance months,True
+No negative installment counts,True
+No negative delinquency days,True
+No high-missing retained feature,True
+No infinite numerical values,True

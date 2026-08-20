@@ -1,0 +1,29 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,decision,reason,target_association_stage
+AMT_PAYMENT_CURRENT,float64,497918,0.19287380489577288,120031,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_DRAWINGS_ATM_CURRENT,float64,486683,0.18852180878797198,1885,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_DRAWINGS_OTHER_CURRENT,float64,486683,0.18852180878797198,1433,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_DRAWINGS_POS_CURRENT,float64,486683,0.18852180878797198,118733,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_DRAWINGS_ATM_CURRENT,float64,486683,0.18852180878797198,44,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_DRAWINGS_OTHER_CURRENT,float64,486683,0.18852180878797198,10,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_DRAWINGS_POS_CURRENT,float64,486683,0.18852180878797198,121,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_INST_MIN_REGULARITY,float64,212587,0.08234782345964128,240050,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_INSTALMENT_MATURE_CUM,float64,212587,0.08234782345964128,121,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+MONTHS_BALANCE,float64,0,0.0,96,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_BALANCE,float64,0,0.0,969762,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_CREDIT_LIMIT_ACTUAL,int64,0,0.0,165,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_DRAWINGS_CURRENT,float64,0,0.0,131269,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_PAYMENT_TOTAL_CURRENT,float64,0,0.0,130521,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_RECEIVABLE_PRINCIPAL,float64,0,0.0,855972,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_RECIVABLE,float64,0,0.0,962440,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_TOTAL_RECEIVABLE,float64,0,0.0,962519,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_DRAWINGS_CURRENT,int64,0,0.0,120,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CONTRACT_STATUS,str,0,0.0,6,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+SK_DPD,int64,0,0.0,827,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+SK_DPD_DEF,int64,0,0.0,304,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_NEGATIVE_BALANCE,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_NEGATIVE_RECEIVABLE,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_NEGATIVE_DRAWING,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_BALANCE_WITHOUT_LIMIT,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_PAYMENT_BELOW_MINIMUM,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CC_MONTH_ANOMALY,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation
+CC_DPD_INCONSISTENCY,int8,0,0.0,1,Remove,Constant among training-linked monthly records,After applicant-level aggregation

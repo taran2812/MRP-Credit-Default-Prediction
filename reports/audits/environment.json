@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-07-29T19:36:24.408159+00:00",
+  "project_root": "/Users/taranveersingh/A-MRP29JULY",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "python": "3.12.2",
+  "pandas": "3.0.3",
+  "numpy": "2.2.6",
+  "logical_cpu_count": 8,
+  "available_memory_gb_at_audit": null,
+  "random_seed": 42
+}

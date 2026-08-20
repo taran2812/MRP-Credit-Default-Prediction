@@ -1,0 +1,10 @@
+model,configuration,roc_auc,pr_auc
+Equal Vote,Three-model OOF ensemble,0.7914493520458515,0.2857005171820286
+Weighted Vote,Three-model OOF ensemble,0.7913955969997173,0.2856947790695712
+Logistic Stack,Three-model OOF ensemble,0.791356552618778,0.2856523360288693
+LightGBM,lgb_leaves48_regularized,0.7896605948290314,0.2825289230282248
+XGBoost,xgb_depth5_regularized,0.789620201951895,0.2823231261695373
+CatBoost,native_depth7_regularized,0.7889383913422934,0.2825013611431508
+Logistic Regression,Baseline model,0.7758187401397131,0.2627552813425598
+Balanced Logistic Regression,Baseline model,0.7757416700140277,0.2600187987617353
+Random Forest,Baseline model,0.76877063845988,0.2547927299824272

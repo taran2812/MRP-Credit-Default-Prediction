@@ -1,0 +1,8 @@
+rule,affected
+Out-of-scope records removed,612347
+Exact duplicate rows removed,0
+Rare status records consolidated,19
+Negative balance records flagged,1967
+Negative receivable records flagged,93850
+Payment-below-minimum records flagged,106204
+Features removed by missingness/constant policy,2

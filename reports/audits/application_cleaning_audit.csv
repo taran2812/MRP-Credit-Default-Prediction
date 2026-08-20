@@ -1,0 +1,7 @@
+rule,values_affected
+Whitespace removed from categorical values,0
+DAYS_EMPLOYED sentinel replaced with missing,55374
+DAYS_EMPLOYED_ANOMALY created,55374
+CODE_GENDER XNA changed to Unknown,4
+Categorical missing values changed to Unknown,243438
+Features removed using training-set rules,52

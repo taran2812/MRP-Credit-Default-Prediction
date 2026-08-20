@@ -1,0 +1,8 @@
+rule,affected
+Out-of-scope records removed,1457983
+Exact duplicate rows removed,0
+Rare status records consolidated,14
+Future installments above total flagged,6430
+Completed contracts with remaining installments flagged,3
+Active contracts with zero future installments flagged,379838
+Features removed by missingness/constant policy,2

@@ -1,0 +1,41 @@
+feature,data_type,missing_count,missing_rate,unique_non_missing,decision,reason,target_association_stage
+DAYS_LAST_DUE_1ST_VERSION,float64,512327,0.4530094850217651,4594,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+SELLERPLACE_AREA,float64,509538,0.45054339704723767,2030,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+DAYS_FIRST_DUE,float64,476293,0.42114752228454005,2891,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NFLAG_INSURED_ON_APPROVAL,float64,449078,0.3970834906507059,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_GOODS_PRICE,float64,255678,0.22607545398035794,77785,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_ANNUITY,float64,245806,0.21734643982312074,293006,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CNT_PAYMENT,float64,245803,0.21734378716484767,47,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_CREDIT,float64,1,8.842194243554704e-07,75823,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CONTRACT_TYPE,str,0,0.0,4,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+AMT_APPLICATION,float64,0,0.0,77785,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+WEEKDAY_APPR_PROCESS_START,str,0,0.0,7,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+HOUR_APPR_PROCESS_START,int64,0,0.0,24,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+FLAG_LAST_APPL_PER_CONTRACT,str,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NFLAG_LAST_APPL_IN_DAY,int64,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CASH_LOAN_PURPOSE,str,0,0.0,22,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CONTRACT_STATUS,str,0,0.0,4,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+DAYS_DECISION,float64,0,0.0,2921,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_PAYMENT_TYPE,str,0,0.0,4,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CODE_REJECT_REASON,str,0,0.0,9,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_TYPE_SUITE,str,0,0.0,8,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_CLIENT_TYPE,str,0,0.0,4,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_GOODS_CATEGORY,str,0,0.0,23,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_PORTFOLIO,str,0,0.0,5,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_PRODUCT_TYPE,str,0,0.0,3,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+CHANNEL_TYPE,str,0,0.0,8,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_SELLER_INDUSTRY,str,0,0.0,11,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+NAME_YIELD_GROUP,str,0,0.0,5,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+PRODUCT_COMBINATION,str,0,0.0,18,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+PREV_SELLER_AREA_MISSING,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+PREV_CREDIT_ABOVE_APPLICATION,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+PREV_NEGATIVE_DOWN_PAYMENT,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+PREV_ZERO_APPLICATION,int8,0,0.0,2,Keep,Retain for applicant-level aggregation and later target-based selection,After applicant-level aggregation
+RATE_INTEREST_PRIMARY,float64,1127080,0.9965860288025635,121,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+RATE_INTEREST_PRIVILEGED,float64,1127080,0.9965860288025635,20,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+DAYS_FIRST_DRAWING,float64,1088180,0.9621898931951357,2745,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+DAYS_TERMINATION,float64,604335,0.5343647458178632,2805,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+AMT_DOWN_PAYMENT,float64,600023,0.5305519916600424,23541,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+RATE_DOWN_PAYMENT,float64,600023,0.5305519916600424,155119,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+DAYS_LAST_DUE,float64,593823,0.5250698312290385,2861,Remove,Training-linked missing rate is at least 50%,After applicant-level aggregation
+PREV_DATE_ANOMALY,int8,0,0.0,1,Remove,Constant among training-linked records,After applicant-level aggregation

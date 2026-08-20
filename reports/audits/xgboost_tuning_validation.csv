@@ -1,0 +1,11 @@
+check,passed
+Complete training dataset used,True
+Every configuration used five folds,True
+All OOF predictions complete,True
+One OOF row per training applicant,True
+Final test excluded,True
+Protected gender excluded,True
+All predefined folds used,True
+Selected rounds valid,True
+All outer rows used,True
+Metrics finite,True
